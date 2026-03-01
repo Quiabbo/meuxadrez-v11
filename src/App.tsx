@@ -49,7 +49,7 @@ const FAQItem = ({ question, answer }: { question: string; answer: string; key?:
   );
 };
 
-const WaitlistModal = ({ isOpen, onClose }: { isOpen: boolean; onClose: () => void }) => {
+const WaitlistModal = ({ isOpen, onClose, onWaitlistSuccess }: { isOpen: boolean; onClose: () => void; onWaitlistSuccess: () => void }) => {
   const [formData, setFormData] = useState({ name: '', email: '', whatsapp: '' });
   const [status, setStatus] = useState<'idle' | 'loading' | 'success' | 'error'>('idle');
 
@@ -72,6 +72,7 @@ const WaitlistModal = ({ isOpen, onClose }: { isOpen: boolean; onClose: () => vo
       const result = await response.json();
       if (result.success === "true" || response.ok) {
         setStatus('success');
+        onWaitlistSuccess(); // Increment the counter
         setTimeout(() => {
           onClose();
           setStatus('idle');
@@ -165,6 +166,21 @@ const WaitlistModal = ({ isOpen, onClose }: { isOpen: boolean; onClose: () => vo
 export default function App() {
   const [timeLeft, setTimeLeft] = useState(12);
   const [isModalOpen, setIsModalOpen] = useState(false);
+  const [waitlistCount, setWaitlistCount] = useState(52);
+
+  useEffect(() => {
+    // Load count from localStorage or default to 52
+    const savedCount = localStorage.getItem('meuxadrez_waitlist_count');
+    if (savedCount) {
+      setWaitlistCount(parseInt(savedCount, 10));
+    }
+  }, []);
+
+  const handleWaitlistSuccess = () => {
+    const newCount = waitlistCount + 1;
+    setWaitlistCount(newCount);
+    localStorage.setItem('meuxadrez_waitlist_count', newCount.toString());
+  };
 
   useEffect(() => {
     const script = document.createElement('script');
@@ -204,7 +220,11 @@ export default function App() {
         </svg>
       </a>
 
-      <WaitlistModal isOpen={isModalOpen} onClose={() => setIsModalOpen(false)} />
+      <WaitlistModal 
+        isOpen={isModalOpen} 
+        onClose={() => setIsModalOpen(false)} 
+        onWaitlistSuccess={handleWaitlistSuccess}
+      />
 
       {/* SEÇÃO 1: HERO & LOGO */}
       <section className="relative pt-8 pb-20 md:pt-12 md:pb-24 chess-pattern-subtle">
@@ -489,7 +509,7 @@ export default function App() {
                     Entrar na fila de espera
                   </button>
                   <span className="text-sm font-bold text-accent flex items-center gap-2">
-                    <Users className="w-5 h-5" /> +52 enxadristas já na lista
+                    <Users className="w-5 h-5" /> +{waitlistCount} enxadristas já na lista
                   </span>
                 </div>
               </div>
