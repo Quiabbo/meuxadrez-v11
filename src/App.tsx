@@ -287,7 +287,7 @@ export default function App() {
                 <p className="text-text-muted text-sm mb-4">300 exercícios táticos progressivos</p>
                 <div className="mt-auto w-full">
                   <p className="text-2xl font-bold text-secondary mb-4">R$ 28,71</p>
-                  <a href="https://www.mercadolivre.com.br/livro-xadrez-300-exercicios-tatica-finais-xequemate/up/MLBU3739584739" className="cta-button w-full text-sm py-4">
+                  <a href="https://www.mercadolivre.com.br/livro-xadrez-300-exercicios-tatica-finais-xequemate/up/MLBU3739584739" target="_blank" rel="noopener noreferrer" className="cta-button w-full text-sm py-4">
                     <ShoppingCart className="w-4 h-4 mr-2" /> COMPRAR AGORA
                   </a>
                 </div>
@@ -310,7 +310,7 @@ export default function App() {
                 <p className="text-text-muted text-sm mb-4">Registro e análise profissional</p>
                 <div className="mt-auto w-full">
                   <p className="text-2xl font-bold text-secondary mb-4">R$ 33,56</p>
-                  <a href="https://www.mercadolivre.com.br/livro-xadrez-notacao-algebrica-tabela-sumula/up/MLBU3429643591" className="cta-button w-full text-sm py-4">
+                  <a href="https://www.mercadolivre.com.br/livro-xadrez-notacao-algebrica-tabela-sumula/up/MLBU3429643591" target="_blank" rel="noopener noreferrer" className="cta-button w-full text-sm py-4">
                     <ShoppingCart className="w-4 h-4 mr-2" /> COMPRAR AGORA
                   </a>
                 </div>
@@ -391,6 +391,138 @@ export default function App() {
                   <p className="text-lg text-text-main">{item}</p>
                 </motion.div>
               ))}
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* SEÇÃO: DETALHES DOS PRODUTOS */}
+      <section className="py-24 bg-white overflow-hidden">
+        <div className="container mx-auto px-4">
+          <h2 className="section-title">CONHEÇA NOSSOS MATERIAIS</h2>
+          
+          {/* Caderno de Exercícios */}
+          <div className="max-w-6xl mx-auto mb-32">
+            <div className="flex flex-col md:flex-row items-center gap-12 md:gap-20">
+              <div className="md:w-1/2">
+                <motion.div
+                  initial={{ opacity: 0, x: -30 }}
+                  whileInView={{ opacity: 1, x: 0 }}
+                  viewport={{ once: true }}
+                >
+                  <img 
+                    src="https://dicionariopanico.com.br/wp-content/uploads/2026/03/caderno-exercicios-Cs-8tibk-e1772372742470.png" 
+                    alt="LIVRO 300 EXERCÍCIOS DE XADREZ" 
+                    className="w-full max-w-md mx-auto drop-shadow-2xl"
+                    referrerPolicy="no-referrer"
+                  />
+                </motion.div>
+              </div>
+              <div className="md:w-1/2">
+                <h3 className="font-display text-3xl md:text-4xl font-bold text-secondary mb-6 leading-tight">
+                  LIVRO 300 EXERCÍCIOS DE XADREZ – TÁTICA E MATE
+                </h3>
+                <p className="text-lg text-text-muted mb-8 leading-relaxed">
+                  Este é um livro de exercícios de xadrez feito para jogadores que querem parar de errar mate, ganhar visão tática e subir o rating de verdade. Aqui não tem teoria desnecessária. O foco é treino prático, com exercícios que aparecem em partidas reais e decidem o resultado do jogo.
+                </p>
+                
+                <div className="grid sm:grid-cols-2 gap-8 mb-10">
+                  <div>
+                    <h4 className="font-display font-bold text-accent uppercase tracking-widest text-sm mb-4">O QUE VOCÊ VAI TREINAR</h4>
+                    <ul className="space-y-2 text-sm text-text-main">
+                      <li className="flex items-center gap-2"><Check className="w-4 h-4 text-accent" /> 300 exercícios práticos</li>
+                      <li className="flex items-center gap-2"><Check className="w-4 h-4 text-accent" /> Tática e padrões de mate</li>
+                      <li className="flex items-center gap-2"><Check className="w-4 h-4 text-accent" /> Mate em 1, 2 e 3</li>
+                      <li className="flex items-center gap-2"><Check className="w-4 h-4 text-accent" /> Gabarito completo</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h4 className="font-display font-bold text-accent uppercase tracking-widest text-sm mb-4">BENEFÍCIOS DO TREINO</h4>
+                    <ul className="space-y-2 text-sm text-text-main">
+                      <li className="flex items-center gap-2"><Check className="w-4 h-4 text-accent" /> Cálculo tático rápido</li>
+                      <li className="flex items-center gap-2"><Check className="w-4 h-4 text-accent" /> Padrões automáticos</li>
+                      <li className="flex items-center gap-2"><Check className="w-4 h-4 text-accent" /> Menos erros decisivos</li>
+                      <li className="flex items-center gap-2"><Check className="w-4 h-4 text-accent" /> Evolução real no rating</li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div className="mb-10">
+                  <h4 className="font-display font-bold text-accent uppercase tracking-widest text-sm mb-4">INDICADO PARA</h4>
+                  <ul className="grid sm:grid-cols-2 gap-x-8 gap-y-2 text-sm text-text-main">
+                    <li className="flex items-center gap-2"><Check className="w-4 h-4 text-accent" /> Iniciantes e intermediários</li>
+                    <li className="flex items-center gap-2"><Check className="w-4 h-4 text-accent" /> Treino diário de xadrez</li>
+                    <li className="flex items-center gap-2"><Check className="w-4 h-4 text-accent" /> Subir rating (Chess.com/Lichess)</li>
+                    <li className="flex items-center gap-2"><Check className="w-4 h-4 text-accent" /> Estudo offline, sem distrações</li>
+                  </ul>
+                </div>
+
+                <div className="flex flex-wrap gap-4 items-center">
+                  <a href="https://www.mercadolivre.com.br/livro-xadrez-300-exercicios-tatica-finais-xequemate/up/MLBU3739584739" target="_blank" rel="noopener noreferrer" className="cta-button">
+                    <ShoppingCart className="w-5 h-5 mr-2" /> COMPRAR AGORA
+                  </a>
+                  <p className="text-xs text-text-muted italic">Desenvolvido e vendido por MeuXadrez</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Linha Divisória */}
+          <div className="max-w-4xl mx-auto h-px bg-black/5 mb-32"></div>
+
+          {/* Caderno de Notação */}
+          <div className="max-w-6xl mx-auto">
+            <div className="flex flex-col md:flex-row-reverse items-center gap-12 md:gap-20">
+              <div className="md:w-1/2">
+                <motion.div
+                  initial={{ opacity: 0, x: 30 }}
+                  whileInView={{ opacity: 1, x: 0 }}
+                  viewport={{ once: true }}
+                >
+                  <img 
+                    src="https://dicionariopanico.com.br/wp-content/uploads/2026/03/caderno-notacao-new-DMNPdkj1-e1772372604132.png" 
+                    alt="LIVRO DE XADREZ PARA ANOTAR JOGOS" 
+                    className="w-full max-w-md mx-auto drop-shadow-2xl"
+                    referrerPolicy="no-referrer"
+                  />
+                </motion.div>
+              </div>
+              <div className="md:w-1/2">
+                <h3 className="font-display text-3xl md:text-4xl font-bold text-secondary mb-6 leading-tight">
+                  LIVRO DE XADREZ PARA ANOTAR JOGOS
+                </h3>
+                <p className="text-lg text-text-muted mb-8 leading-relaxed">
+                  Este é um livro de xadrez para anotar jogos e registrar partidas, ideal para quem deseja acompanhar sua evolução, analisar erros e melhorar o desempenho no xadrez de forma organizada. Funciona como uma planilha ou súmula de xadrez em formato de livro, permitindo o registro completo das partidas, seja em treinos, estudos ou torneios. Mesmo quem nunca utilizou notação algébrica consegue usar com facilidade, pois o livro inclui explicações simples e acessíveis para aprender a anotar partidas corretamente.
+                </p>
+                
+                <div className="grid sm:grid-cols-2 gap-8 mb-10">
+                  <div>
+                    <h4 className="font-display font-bold text-accent uppercase tracking-widest text-sm mb-4">PRINCIPAIS BENEFÍCIOS</h4>
+                    <ul className="space-y-2 text-sm text-text-main">
+                      <li className="flex items-center gap-2"><Check className="w-4 h-4 text-accent" /> Anote jogos e partidas organizadamente</li>
+                      <li className="flex items-center gap-2"><Check className="w-4 h-4 text-accent" /> Analise partidas e identifique erros</li>
+                      <li className="flex items-center gap-2"><Check className="w-4 h-4 text-accent" /> Acompanhe sua evolução no tempo</li>
+                      <li className="flex items-center gap-2"><Check className="w-4 h-4 text-accent" /> Ideal para treinos e torneios</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h4 className="font-display font-bold text-accent uppercase tracking-widest text-sm mb-4">INDICADO PARA</h4>
+                    <ul className="space-y-2 text-sm text-text-main">
+                      <li className="flex items-center gap-2"><Check className="w-4 h-4 text-accent" /> Jogadores iniciantes e intermediários</li>
+                      <li className="flex items-center gap-2"><Check className="w-4 h-4 text-accent" /> Estudantes e praticantes de xadrez</li>
+                      <li className="flex items-center gap-2"><Check className="w-4 h-4 text-accent" /> Treino diário e análise pós-partida</li>
+                      <li className="flex items-center gap-2"><Check className="w-4 h-4 text-accent" /> Torneios presenciais</li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div className="flex flex-wrap gap-4 items-center">
+                  <a href="https://www.mercadolivre.com.br/livro-xadrez-notacao-algebrica-tabela-sumula/up/MLBU3429643591" target="_blank" rel="noopener noreferrer" className="cta-button">
+                    <ShoppingCart className="w-5 h-5 mr-2" /> COMPRAR AGORA
+                  </a>
+                  <p className="text-xs text-text-muted italic">Desenvolvido e vendido por MeuXadrez</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -585,7 +717,7 @@ export default function App() {
                   ))}
                 </div>
 
-                <a href="https://www.mercadolivre.com.br/livros-xadrez--combo-exercicios-e-notacao/up/MLBU3804259543" className="cta-button w-full mb-6">
+                <a href="https://www.mercadolivre.com.br/livros-xadrez--combo-exercicios-e-notacao/up/MLBU3804259543" target="_blank" rel="noopener noreferrer" className="cta-button w-full mb-6">
                   👑 QUERO O KIT COMPLETO
                 </a>
 
