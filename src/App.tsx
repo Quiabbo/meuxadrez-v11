@@ -412,7 +412,7 @@ export default function App() {
                 >
                   <img 
                     src="https://dicionariopanico.com.br/wp-content/uploads/2026/03/caderno-exercicios-Cs-8tibk-e1772372742470.png" 
-                    alt="CADERNO 300 EXERCÍCIOS DE XADREZ" 
+                    alt="Caderno 300 Exercícios de Xadrez - Tática, finais e xeque-mate" 
                     className="w-full max-w-md mx-auto drop-shadow-2xl"
                     referrerPolicy="no-referrer"
                   />
@@ -420,7 +420,7 @@ export default function App() {
               </div>
               <div className="md:w-1/2">
                 <h3 className="font-display text-3xl md:text-4xl font-bold text-secondary mb-6 leading-tight">
-                  CADERNO 300 EXERCÍCIOS DE XADREZ – TÁTICA, FINAIS E XEQUE-MATE
+                  Caderno 300 Exercícios de Xadrez - Tática, finais e xeque-mate
                 </h3>
                 <p className="text-lg text-text-muted mb-8 leading-relaxed">
                   Este é um caderno de exercícios de xadrez feito para jogadores que querem parar de errar mate, ganhar visão tática e subir o rating de verdade. Aqui não tem teoria desnecessária. O foco é treino prático, com exercícios que aparecem em partidas reais e decidem o resultado do jogo.
@@ -481,7 +481,7 @@ export default function App() {
                 >
                   <img 
                     src="https://dicionariopanico.com.br/wp-content/uploads/2026/03/caderno-notacao-new-DMNPdkj1-e1772372604132.png" 
-                    alt="CADERNO DE NOTAÇÃO PARA ANOTAR SUAS PARTIDAS" 
+                    alt="Caderno Notação - Aprenda e anote suas partidas" 
                     className="w-full max-w-md mx-auto drop-shadow-2xl"
                     referrerPolicy="no-referrer"
                   />
@@ -489,7 +489,7 @@ export default function App() {
               </div>
               <div className="md:w-1/2">
                 <h3 className="font-display text-3xl md:text-4xl font-bold text-secondary mb-6 leading-tight">
-                  CADERNO DE NOTAÇÃO PARA ANOTAR SUAS PARTIDAS
+                  Caderno Notação - Aprenda e anote suas partidas
                 </h3>
                 <p className="text-lg text-text-muted mb-8 leading-relaxed">
                   Este é um caderno de xadrez para anotar jogos e registrar partidas, ideal para quem deseja acompanhar sua evolução, analisar erros e melhorar o desempenho no xadrez de forma organizada. Funciona como uma planilha ou súmula de xadrez em formato de caderno, permitindo o registro completo das partidas, seja em treinos, estudos ou torneios. Mesmo quem nunca utilizou notação algébrica consegue usar com facilidade, pois o caderno inclui explicações simples e acessíveis para aprender a anotar partidas corretamente.
