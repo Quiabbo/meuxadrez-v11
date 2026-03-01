@@ -412,7 +412,7 @@ export default function App() {
                 >
                   <img 
                     src="https://dicionariopanico.com.br/wp-content/uploads/2026/03/caderno-exercicios-Cs-8tibk-e1772372742470.png" 
-                    alt="LIVRO 300 EXERCÍCIOS DE XADREZ" 
+                    alt="CADERNO 300 EXERCÍCIOS DE XADREZ" 
                     className="w-full max-w-md mx-auto drop-shadow-2xl"
                     referrerPolicy="no-referrer"
                   />
@@ -420,10 +420,10 @@ export default function App() {
               </div>
               <div className="md:w-1/2">
                 <h3 className="font-display text-3xl md:text-4xl font-bold text-secondary mb-6 leading-tight">
-                  LIVRO 300 EXERCÍCIOS DE XADREZ – TÁTICA E MATE
+                  CADERNO 300 EXERCÍCIOS DE XADREZ – TÁTICA, FINAIS E XEQUE-MATE
                 </h3>
                 <p className="text-lg text-text-muted mb-8 leading-relaxed">
-                  Este é um livro de exercícios de xadrez feito para jogadores que querem parar de errar mate, ganhar visão tática e subir o rating de verdade. Aqui não tem teoria desnecessária. O foco é treino prático, com exercícios que aparecem em partidas reais e decidem o resultado do jogo.
+                  Este é um caderno de exercícios de xadrez feito para jogadores que querem parar de errar mate, ganhar visão tática e subir o rating de verdade. Aqui não tem teoria desnecessária. O foco é treino prático, com exercícios que aparecem em partidas reais e decidem o resultado do jogo.
                 </p>
                 
                 <div className="grid sm:grid-cols-2 gap-8 mb-10">
@@ -481,7 +481,7 @@ export default function App() {
                 >
                   <img 
                     src="https://dicionariopanico.com.br/wp-content/uploads/2026/03/caderno-notacao-new-DMNPdkj1-e1772372604132.png" 
-                    alt="LIVRO DE XADREZ PARA ANOTAR JOGOS" 
+                    alt="CADERNO DE NOTAÇÃO PARA ANOTAR SUAS PARTIDAS" 
                     className="w-full max-w-md mx-auto drop-shadow-2xl"
                     referrerPolicy="no-referrer"
                   />
@@ -489,10 +489,10 @@ export default function App() {
               </div>
               <div className="md:w-1/2">
                 <h3 className="font-display text-3xl md:text-4xl font-bold text-secondary mb-6 leading-tight">
-                  LIVRO DE XADREZ PARA ANOTAR JOGOS
+                  CADERNO DE NOTAÇÃO PARA ANOTAR SUAS PARTIDAS
                 </h3>
                 <p className="text-lg text-text-muted mb-8 leading-relaxed">
-                  Este é um livro de xadrez para anotar jogos e registrar partidas, ideal para quem deseja acompanhar sua evolução, analisar erros e melhorar o desempenho no xadrez de forma organizada. Funciona como uma planilha ou súmula de xadrez em formato de livro, permitindo o registro completo das partidas, seja em treinos, estudos ou torneios. Mesmo quem nunca utilizou notação algébrica consegue usar com facilidade, pois o livro inclui explicações simples e acessíveis para aprender a anotar partidas corretamente.
+                  Este é um caderno de xadrez para anotar jogos e registrar partidas, ideal para quem deseja acompanhar sua evolução, analisar erros e melhorar o desempenho no xadrez de forma organizada. Funciona como uma planilha ou súmula de xadrez em formato de caderno, permitindo o registro completo das partidas, seja em treinos, estudos ou torneios. Mesmo quem nunca utilizou notação algébrica consegue usar com facilidade, pois o caderno inclui explicações simples e acessíveis para aprender a anotar partidas corretamente.
                 </p>
                 
                 <div className="grid sm:grid-cols-2 gap-8 mb-10">
