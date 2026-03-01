@@ -499,7 +499,7 @@ export default function App() {
                   <div className="absolute inset-0 chess-pattern-subtle opacity-5"></div>
                   
                   {/* Book Icon Outline (Replicating the Image) */}
-                  <div className="relative mb-6 flex flex-col items-center">
+                  <div className="relative flex flex-col items-center">
                     <div className="relative">
                       <BookOpen className="w-32 h-32 text-accent/20" strokeWidth={0.5} />
                       {/* Slanted Black Badge */}
@@ -507,14 +507,6 @@ export default function App() {
                         <span className="font-display font-bold text-lg tracking-widest">MAIO 2026</span>
                       </div>
                     </div>
-                  </div>
-
-                  {/* Text labels */}
-                  <div className="text-center relative z-10 mt-4">
-                    <h4 className="font-display font-black text-3xl text-secondary tracking-tight uppercase">Projeto Secreto</h4>
-                    <p className="text-sm text-text-muted font-medium tracking-[0.4em] uppercase mt-2">
-                      Abertura <span className="text-accent/40">•</span> Ataque <span className="text-accent/40">•</span> Defesa
-                    </p>
                   </div>
                 </div>
               </div>
